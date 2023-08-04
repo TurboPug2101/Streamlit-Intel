@@ -2,20 +2,10 @@ from textblob import TextBlob
 import pandas as pd
 import streamlit as st
 import cleantext
-import nltk
-import numpy as np
-#import matplotlib.pyplot as plt
-
-from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
-from nltk.tokenize import word_tokenize
-import string
-import tensorflow as tf
 
 from transformers import AutoModelForSequenceClassification
 from transformers import AutoTokenizer
-from langchain import OpenAI, ConversationChain, LLMChain, PromptTemplate
-from langchain.memory import ConversationBufferWindowMemory
+
 import torch
 
 #
